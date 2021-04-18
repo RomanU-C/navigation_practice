@@ -20,6 +20,20 @@ const CustomDrawerContent = (props: any) => {
                     onPress={() => props.navigation.navigate('Two')}>
                     <Text>ScreenTwo</Text>
                 </TouchableOpacity>
+                <TouchableOpacity style={{
+                    paddingHorizontal: 10,
+                    paddingVertical: 10
+                }}
+                    onPress={() => props.navigation.navigate('Three')}>
+                    <Text>ScreenThree</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={{
+                    paddingHorizontal: 10,
+                    paddingVertical: 10
+                }}
+                    onPress={() => props.navigation.navigate('Four')}>
+                    <Text>ScreenFour</Text>
+                </TouchableOpacity>
             </ScrollView>
         </SafeAreaView>
     )

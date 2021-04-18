@@ -13,7 +13,7 @@ const ScreenTwo: React.FC = ({ navigation }: any) => {
             <CustomHeader title='ScreenTwo' navigation={navigation}/>
             <View style={{ flex: 1, alignItems: 'center', backgroundColor: '#fff', justifyContent: 'center' }}>
                 <Text>ScreenTwo</Text>
-                <Button onPress={() => navigation.navigate('One')} title='GoScreenOne' />
+                <Button onPress={() => navigation.navigate('Three')} title='GoScreenThree' />
             </View>
         </SafeAreaView>
     );
